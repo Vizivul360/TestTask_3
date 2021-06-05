@@ -1,0 +1,12 @@
+public class {1}Pool : BasePool<{0}>
+    {{
+		protected override {0} createNew()
+		{{
+			return new {0}();
+		}}
+
+        protected override void reset({0} obj)
+        {{
+			{2}
+        }}
+    }}

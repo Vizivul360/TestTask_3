@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c25274ae56282249854ed9ca156988b, type: 3}
+  m_Name: units
+  m_EditorClassIdentifier: 
+  _radius: 0.25
+  _stopDist: 2
+  _bullet:
+    speed: 4
+    radius: 0.075
+  _frag2Coin: 1
+  _player:
+    moveSpeed: 3
+    attackSpeed: 2
+    hp: 150
+    dmg: 50
+  flyBot:
+    count: 2
+    ai:
+      idle: 1.5
+      walkDistance: 5
+    unit:
+      moveSpeed: 2
+      attackSpeed: 1.5
+      hp: 100
+      dmg: 4
+  landBot:
+    count: 3
+    ai:
+      idle: 0.75
+      walkDistance: 1.5
+    unit:
+      moveSpeed: 1
+      attackSpeed: 3
+      hp: 200
+      dmg: 2
+  _moveGround:
+    serializedVersion: 2
+    m_Bits: 1296
+  _moveFly:
+    serializedVersion: 2
+    m_Bits: 1024
+  _hit:
+    serializedVersion: 2
+    m_Bits: 1792
+  _overlap:
+    serializedVersion: 2
+    m_Bits: 512
+  _door:
+    serializedVersion: 2
+    m_Bits: 2048
